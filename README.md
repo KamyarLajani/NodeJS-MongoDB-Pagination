@@ -1,2 +1,2 @@
-# NodeJS-MongoDB-Pagenation
-A simple NodeJS and MongoDB Pagenation
+# NodeJS-MongoDB-Pagination
+A simple NodeJS and MongoDB Pagination
