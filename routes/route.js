@@ -1,17 +1,6 @@
 const express = require("express");
 const route = express();
-const https = require('https');
-const path = require("path");
-const bodyParser = require("body-parser");
-route.use(bodyParser.json());
-const mongoose = require('mongoose');
-const formidable = require('formidable');
-route.set('view engine', 'pug');
-route.set('views', path.join(__dirname , "/views"));
-let users = require('./model.js');
-let fs = require('fs');
-let articles = require(path.join(__dirname , "/model.js"));
-const cheerio = require('cheerio');
+
 const puppeteer = require('puppeteer');
 
 
